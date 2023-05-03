@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: java-springboot-hello-4py0
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/stonesoupuicluster/mreid-tenant/my-app-3/java-springboot-hello-4py0@sha256:ec6cf64925b74660897f9a8c865f1e3a591b8ff3048cb3b680b9349daf3d3d33
         name: my-java-springboot
         ports:
         - containerPort: 8081
