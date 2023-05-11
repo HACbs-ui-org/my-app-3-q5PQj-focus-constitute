@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: java-springboot-hello-4py0
-  namespace: mreid-tenant
 spec:
   replicas: 1
   selector: {}
